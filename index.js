@@ -29,3 +29,4 @@ function deleteLast() {
     display.value = "0";
   }
 }
+document.getElementById("year").textContent = new Date().getFullYear();
